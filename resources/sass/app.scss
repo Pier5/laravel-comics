@@ -66,5 +66,52 @@ li {
     border: none;
     padding: .3rem;
     border-bottom: 2px solid #0282f9;
+}
 
+.main-comics_top {
+    height: 20rem;
+}
+
+.jumbo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.main-comics_bottom {
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-content {
+    width: calc(100% / 6);
+    margin-bottom: 50px;
+}
+
+.card-title {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 150px;
+    margin: auto;
+    border: none;
+    background-color: #0282f9;
+    color: white;
+    text-transform: uppercase;
+    padding: .6rem 0;
 }
