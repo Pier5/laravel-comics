@@ -9,6 +9,13 @@
     width: 1300px;
 }
 
+.container-1200 {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
 .container-head_top {
     display: flex;
     justify-content: flex-end;  
@@ -70,6 +77,19 @@ li {
 
 .main-comics_top {
     height: 20rem;
+    position: relative;
+}
+
+.current-series {
+    position: absolute;
+    bottom: -10px;
+    left: 90px;
+    width: 180px;
+    background-color: #0282f9;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: .5rem .9rem;
 }
 
 .jumbo-img {
@@ -114,4 +134,31 @@ button {
     color: white;
     text-transform: uppercase;
     padding: .6rem 0;
+}
+
+.footer-top {
+    height: 8rem;
+    background-color: #0282f9;
+    display: flex;
+    align-items: center;
+}
+
+.img-foot {
+    width: 4%;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.img-foot-locator {
+    width: 3%;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.foot-top_text {
+    font-size: .8rem;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
 }

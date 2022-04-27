@@ -6,6 +6,7 @@
     <main>
         <div class="main-comics_top">
             <img class="jumbo-img" src="./images/jumbotron.jpg" alt="immagine dc">
+            <div class="current-series">Current series</div>
         </div>
         <div class="main-comics_bottom">
             <div class="container">
