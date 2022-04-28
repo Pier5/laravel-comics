@@ -19,10 +19,14 @@ Route::get('/', function () {
         'comics' => $comics
     ];
     return view('guest.comics', $data);
-});
+})->name('comics');
 
 Route::get('/home', function () {
     return view('guest.home');
-});
+})->name('home');
+
+Route::get('/characters', function () {
+    return view('guest.characters');
+})->name('characters');
 
 

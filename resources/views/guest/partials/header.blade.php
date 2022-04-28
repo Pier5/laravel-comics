@@ -12,8 +12,8 @@
             <img class="header-logo" src="./images/dc-logo.png" alt="logo dc">
             <nav>
                 <ul>
-                    <a href=""><li class="header-li li-head_bottom">Characters</li></a>
-                    <a href=""><li class="header-li li-head_bottom">Comics</li></a>
+                    <a href=""><li class="header-li li-head_bottom {{ Route::currentRouteName() == 'characters' ? 'active' : '' }}"><a href="{{ route('characters') }}">Characters</a></li></a>
+                    <a href=""><li class="header-li li-head_bottom {{ Route::currentRouteName() == 'comics' ? 'active' : '' }}"><a href="{{ route('comics') }}">Comics</a></li></a>
                     <a href=""><li class="header-li li-head_bottom">Movies</li></a>
                     <a href=""><li class="header-li li-head_bottom">Tv</li></a>
                     <a href=""><li class="header-li li-head_bottom">Games</li></a>

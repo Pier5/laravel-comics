@@ -11,12 +11,14 @@
         <div class="main-comics_bottom">
             <div class="container">
                 <div class="cards">
-                    @foreach($comics as $card)
+                     @foreach($comics as $card)
                         <div class="card-content">
-                            <img src="{{ $card['thumb'] }}" alt="{{ $card['title'] }}">
-                            <h2 class="card-title">{{ $card['series'] }}</h2>
+                            <a href="">
+                                <img src="{{ $card['thumb'] }}" alt="{{ $card['title'] }}">
+                                <h2 class="card-title">{{ $card['series'] }}</h2>
+                            </a>
                         </div>
-                    @endforeach
+                     @endforeach
                 </div>
             </div>
             <button>Load more</button>
